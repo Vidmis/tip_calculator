@@ -35,4 +35,4 @@ document.getElementById("totalTip").style.display = "none";
 document.getElementById("each").style.display = "none";
 
 // Clicking the button calls our custom function
-document.getElementById("calculate").onClick = function() { calculateTip(); };
+document.getElementById("calculate").onclick = function() { calculateTip(); };

@@ -15,14 +15,14 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container">
+        <div id="container">
             <h1>Tip calculator</h1>
 
-            <div class="calculator">
+            <div id="calculator">
                 <form>
                     <label>
                         How much was your bill?<br>
-                        $ <input type="text" class="billAmount">
+                        $ <input type="text" id="billAmount">
                     </label>
                     <label>
                         How was your service?<br>
@@ -37,15 +37,15 @@
                     </label>
                     <label>
                         How many people are sharing the bill? <br>
-                        <input type="text" class="totalPeople"> people
+                        <input type="text" id="totalPeople"> people
                     </label>
-                    <button type="button" class="calculate">Calculate</button>
+                    <button type="button" id="calculate">Calculate</button>
                 </form>
             </div>
             
-            <div class="totalTip">
-                <sup>$</sup><span class="tip">0.00</span>
-                <small class="each">each</small>
+            <div id="totalTip">
+                <sup>$</sup><span id="tip">0.00</span>
+                <small id="each">each</small>
             </div>
         </div>
 
